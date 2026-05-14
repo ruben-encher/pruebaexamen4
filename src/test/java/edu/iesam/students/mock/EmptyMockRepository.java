@@ -18,7 +18,8 @@ public class EmptyMockRepository implements StudentRepository {
 
     @Override
     public ArrayList<Student> getAll() {
-        return null;
+        ArrayList<Student> students = new ArrayList<>();
+        return students;
     }
 
     @Override
